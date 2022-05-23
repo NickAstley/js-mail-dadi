@@ -7,10 +7,15 @@
     <title>La coda dell'array</title>
 </head>
 <body>
-    <h1>Il programma genera una lista di numeri casuali e ti verranno mostrati gli ultimi 5.</h1>
     <form action="">
-        <label for="arrayLength">Inserisci quanti numeri casuali vuoi</label>
-        <input type="number" name="arrayLength" id="arrayLength">
+        <div>  
+            <label for="arrayLength">Inserisci quanti numeri casuali vuoi</label>
+            <input type="number" name="arrayLength" id="arrayLength">
+        </div>
+        <div>
+            <label for="displayNumber">Inserisci quanti numeri vuoi che vengano mostrati dal fondo della lista</label>
+            <input type="number" name="displayNumber" id="displayNumber">
+        </div>
         <button type="button" id="submitButton">Invia</button>
     </form>
     <span id="arrayEnd"></span>
